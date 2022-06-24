@@ -13,6 +13,8 @@ const Navbar = () => {
     ];
     return (
         <nav>
+
+          <ul className='md:flex justify-end mr-10'>
           {
             routes.map(route => <Link
             
@@ -21,6 +23,8 @@ const Navbar = () => {
             
             ></Link>)
           }
+          </ul>
+          
         </nav>
     );
 };

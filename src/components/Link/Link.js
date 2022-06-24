@@ -4,7 +4,7 @@ const Link = (props) => {
     const{name,link}=props.route;
     return (
         
-            <ul>
+            <ul className='mr-8'>
                 <a href={link}>{name}</a>
                
             </ul>
