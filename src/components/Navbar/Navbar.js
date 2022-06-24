@@ -14,7 +14,7 @@ const Navbar = () => {
     return (
         <nav>
 
-          <ul className='md:flex justify-end mr-10'>
+          <ul className='md:flex justify-end mr-6'>
           {
             routes.map(route => <Link
             
